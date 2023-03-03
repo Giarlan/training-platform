@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/training-room.css">
+    <title>Training Room</title>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="logo">
+                <img id="image1" src="../images/Imagem1.png" alt="">
+                <div class="logo-title">
+                    <div class="logo-title-2">GET YOUR JOB</div>
+                    <div class="logo-title-3">BY PEDRO MARINS</div>
+                </div>
+            </div>        
+        
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contacts</a></li>                   
+                </ul>
+            </nav>
+            
+            <div class="profile">
+                <img id="image2" src="../images/perfil-de-usuario.png" alt="">
+                <div class="user-title">User</div>
+            </div>        
+        </header>
+
+        <section class="main">
+            <div class="cover">
+                <nav>
+                    <div class="nav-menu">
+                        <div class="menu-title">Video Classes</div>
+                          
+                        <table>
+                            <tr class="items">
+                                <td><button class="button" onclick="document.getElementById('video').src='../videos/Aula01.mp4'">Lesson 1</button></td>
+                                <td><button class="button" onclick="document.getElementById('video').src='../videos/Aula02.mp4'">Lesson 2</button></td>
+                                <td><button class="button" onclick="document.getElementById('video').src='../videos/Aula03.mp4'">Lesson 3</button></td>
+                                <td><button class="button" onclick="document.getElementById('video').src='../videos/Aula04.mp4'">Lesson 4</button></td>
+                                <td><button class="button" onclick="document.getElementById('video').src='../videos/Aula05.mp4'">Lesson 5</button></td>
+                            </tr>
+                        </table>
+                        
+                    </div>                    
+                </nav>
+
+                <Div class="container">
+                    <div class="video-title">
+                        <div class="video-box">
+                            <video controls muted preload="auto" src="../videos/Aula01.mp4" id="video"></video>                           
+                        </div>
+                    </div>
+                </Div>
+            </div>
+        </section>
+
+    </section>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

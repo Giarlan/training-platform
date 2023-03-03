@@ -194,16 +194,16 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 600;
-    color: rgb(103, 193, 238);
+    color: rgb(131, 43, 11);
 }
 
 button:hover {
     width: 100%;
     height: 40px;
     border-radius: 40px;
-    background: rgb(149, 206, 235);
+    background-color: #493f4e;
     border: none;
     outline: none;
     cursor: pointer;
