@@ -94,33 +94,3 @@ a:hover {
     cursor: pointer;
 }
 
-.main {    
-    display:block;
-    text-align: center;
-    padding: 80px;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: rgba(228, 205, 93, 0.924);
-    margin-bottom: 20px;
-}
-
-.about{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    margin-top: 12rem;
-}
-
-.text {
-    width: 40rem;
-    height: 500px;
-    padding: 20px;
-    justify-content: end;
-    box-shadow: 0px 5px 20px #000;
-    border-radius: 10px;
-
-}
-
