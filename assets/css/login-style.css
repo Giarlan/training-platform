@@ -1,39 +1,34 @@
 * {
-    padding: 0%;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
     color: #fff;
 }
 
-section {
+body {
+    background-color: #211d23;
+    height: 100vh;
+}
+
+.main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
-    width: 100vw;
-    background-color: #211d23;
-    background-position: center;
-    background-size: cover;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 14vh;
-    background-color: #101010;
-    box-shadow: 0px 5px 20px #000;
+    justify-content:space-around;
     align-items: center;
-    margin-top: 0;
-    padding-bottom: 25px;
+    width: 100%;
+    height: 120px;
+    background-color: #101010;
+    box-shadow: 0px 5px 20px rgb(157, 163, 70);
     flex-wrap: wrap;
-}
+} 
 
 .logo {
     display: flex;
     align-items: center;
-    padding-left: 40px;
 }
 
 #image1 {
@@ -45,7 +40,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     margin: 10px;
-
+  
 }
 
 .logo-title-3 {
@@ -54,13 +49,13 @@ header {
 }
 
 .menu {
-    display: flex;
+    display: flex;  
     margin-right: 40px;
     flex-wrap: wrap;
-    font-family: 'MuseoModerno', cursive;
+    font-family: 'MuseoModerno', cursive;   
 }
 
-li {
+li  {
     list-style: none;
     padding: 10px 20px 10px 20px;
     margin: 40px;
@@ -68,26 +63,24 @@ li {
 }
 
 a {
-    color: #fff;
     text-decoration: none;
     transition-duration: 1.5s;
     padding: 10px 20px 10px 20px;
-    border-radius: 10px;
+    border-radius: 10px;    
 }
 
 a:hover {
     background-color: #493f4e;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
-    border-radius: 20px;
+    border-radius: 20px; 
 }
 
 .profile {
     display: block;
     text-align: center;
-    padding-right: 40px;
     font-family: 'MuseoModerno', cursive;
-    font-size: 15px;
+    font-size: 15px; 
     margin-bottom: 10px;
 }
 
@@ -105,21 +98,22 @@ a:hover {
 
 .form-box {
     display: flex;
-    position: relative;
-    width: 400px;
+    width: 350px;
     height: 450px;
+    margin-top: 12em;
     background-color: transparent;
-    border: 2px solid rgb(255, 255, 255, 0.5);
+    border: 2px solid rgb(157, 163, 70);
     border-radius: 40px;
-    margin-bottom: 12em;
     backdrop-filter: blur 20px;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 5px 20px rgb(157, 163, 70);
 }
 
 h2 {
     font-size: 2em;
-    color: #fff;
+    color: rgba(228, 205, 93, 0.924);
     text-align: center;
 }
 
@@ -127,7 +121,7 @@ h2 {
     position: relative;
     margin: 30px 0;
     width: 310px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid  rgb(157, 163, 70);
 }
 
 .inputbox label {
@@ -184,19 +178,20 @@ input:valid~label {
 
 .forget label a:hover {
     text-decoration: underline;
+    box-shadow: 0px 5px 20px rgb(157, 163, 70);
 }
 
 button {
     width: 100%;
     height: 40px;
     border-radius: 40px;
-    background: #fff;
+    background: rgb(157, 163, 70);
     border: none;
     outline: none;
     cursor: pointer;
     font-size: 1.2em;
     font-weight: 600;
-    color: rgb(131, 43, 11);
+    color: #fff;
 }
 
 button:hover {
@@ -211,6 +206,7 @@ button:hover {
     font-weight: 600;
     color: #fff;
     transition: 0.6s;
+    box-shadow: 0px 5px 20px rgb(157, 163, 70);
 }
 
 .register {
@@ -228,6 +224,7 @@ button:hover {
 
 .register p a:hover {
     text-decoration: underline;
+    box-shadow: 0px 5px 20px rgb(157, 163, 70);
 }
 
 @media screen and (max-width: 1635px) {
