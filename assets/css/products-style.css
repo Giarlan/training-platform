@@ -125,7 +125,7 @@ h1 {
     margin-top: 40px;
     border-radius: 10px;
     box-shadow: 0px 5px 40px rgb(152, 191, 22);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #img1:hover, #img2:hover {
@@ -134,7 +134,7 @@ h1 {
     margin-top: 40px;
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgb(255, 255, 255);
-    transition: 1s;
+    transition: 0.5s;
     cursor: pointer;
 }
 
